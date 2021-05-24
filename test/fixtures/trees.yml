@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  pruning: MyString
+  wiring: MyString
+  repotting: MyString
+  propagation: MyString
+  disease: MyString
+  placement: MyString
+  fertilizing: MyString
+
+two:
+  name: MyString
+  pruning: MyString
+  wiring: MyString
+  repotting: MyString
+  propagation: MyString
+  disease: MyString
+  placement: MyString
+  fertilizing: MyString
