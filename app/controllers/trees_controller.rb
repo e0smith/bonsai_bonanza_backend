@@ -13,30 +13,30 @@ class TreesController < ApplicationController
     render json: @tree
   end
 
-  # POST /trees
-  def create
-    @tree = Tree.new(tree_params)
+  # # POST /trees
+  # def create
+  #   @tree = Tree.new(tree_params)
 
-    if @tree.save
-      render json: @tree, status: :created, location: @tree
-    else
-      render json: @tree.errors, status: :unprocessable_entity
-    end
-  end
+  #   if @tree.save
+  #     render json: @tree, status: :created, location: @tree
+  #   else
+  #     render json: @tree.errors, status: :unprocessable_entity
+  #   end
+  # end
 
-  # PATCH/PUT /trees/1
-  def update
-    if @tree.update(tree_params)
-      render json: @tree
-    else
-      render json: @tree.errors, status: :unprocessable_entity
-    end
-  end
+  # # PATCH/PUT /trees/1
+  # def update
+  #   if @tree.update(tree_params)
+  #     render json: @tree
+  #   else
+  #     render json: @tree.errors, status: :unprocessable_entity
+  #   end
+  # end
 
-  # DELETE /trees/1
-  def destroy
-    @tree.destroy
-  end
+  # # DELETE /trees/1
+  # def destroy
+  #   @tree.destroy
+  # end
 
   private
     # Use callbacks to share common setup or constraints between actions.
