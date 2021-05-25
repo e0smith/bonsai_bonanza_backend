@@ -4,6 +4,7 @@ class CreateTrees < ActiveRecord::Migration[6.1]
       t.string :name
       t.string :pruning
       t.string :wiring
+      t.string :watering
       t.string :repotting
       t.string :propagation
       t.string :disease
