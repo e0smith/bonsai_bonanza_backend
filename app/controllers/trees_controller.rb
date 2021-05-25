@@ -4,13 +4,12 @@ class TreesController < ApplicationController
   # GET /trees
   def index
     @trees = Tree.all
-
-    render json: @trees
+    render json: @trees, except: [:created_at, :updated_at]
   end
 
   # GET /trees/1
   def show
-    render json: @tree
+    render json: @tree, except: [:created_at, :updated_at]
   end
 
   # # POST /trees

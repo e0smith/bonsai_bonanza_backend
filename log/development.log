@@ -352,3 +352,81 @@ Processing by TreesController#index as HTML
 Completed 200 OK in 26ms (Views: 21.5ms | ActiveRecord: 0.6ms | Allocations: 11122)
 
 
+Started GET "/trees/1" for ::1 at 2021-05-24 20:33:00 -0400
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TreesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees" WHERE "trees"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/trees_controller.rb:44:in `set_tree'
+Completed 200 OK in 19ms (Views: 0.7ms | ActiveRecord: 0.6ms | Allocations: 10760)
+
+
+Started GET "/trees" for ::1 at 2021-05-24 20:38:03 -0400
+  
+SyntaxError (/Users/edward/Development/code/phase4-project/bonsai_bonanza_backend/app/controllers/trees_controller.rb:55: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/trees_controller.rb:55: syntax error, unexpected end-of-input, expecting end
+app/controllers/trees_controller.rb:55: syntax error, unexpected end-of-input, expecting end
+Started GET "/trees" for ::1 at 2021-05-24 20:38:13 -0400
+Processing by TreesController#index as HTML
+Completed 500 Internal Server Error in 5ms (Allocations: 1903)
+
+
+  
+NoMethodError (undefined method `respond_to' for #<TreesController:0x007fdd2c8838d8>
+Did you mean?  respond_to?):
+  
+app/controllers/trees_controller.rb:8:in `index'
+Started GET "/trees" for ::1 at 2021-05-24 20:38:14 -0400
+Processing by TreesController#index as HTML
+Completed 500 Internal Server Error in 7ms (Allocations: 1800)
+
+
+  
+NoMethodError (undefined method `respond_to' for #<TreesController:0x007fdd3ebf74d0>
+Did you mean?  respond_to?):
+  
+app/controllers/trees_controller.rb:8:in `index'
+Started GET "/trees" for ::1 at 2021-05-24 20:38:15 -0400
+Processing by TreesController#index as HTML
+Completed 500 Internal Server Error in 12ms (Allocations: 1512)
+
+
+  
+NoMethodError (undefined method `respond_to' for #<TreesController:0x007fdd2d470a38>
+Did you mean?  respond_to?):
+  
+app/controllers/trees_controller.rb:8:in `index'
+Started GET "/trees" for ::1 at 2021-05-24 20:38:36 -0400
+Processing by TreesController#index as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+  [1m[36mTree Load (0.4ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 1.2ms | Allocations: 8821)
+
+
+Started GET "/trees.html" for ::1 at 2021-05-24 20:38:39 -0400
+Processing by TreesController#index as HTML
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 29ms (Views: 28.5ms | ActiveRecord: 0.3ms | Allocations: 1475)
+
+
+Started GET "/trees.json" for ::1 at 2021-05-24 20:38:43 -0400
+Processing by TreesController#index as JSON
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.3ms | Allocations: 1480)
+
+
+Started GET "/trees.json" for ::1 at 2021-05-24 20:54:41 -0400
+Processing by TreesController#index as JSON
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+  [1m[36mTree Load (0.4ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.7ms | Allocations: 7868)
+
+
