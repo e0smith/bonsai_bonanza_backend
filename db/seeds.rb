@@ -12,6 +12,7 @@ juniper = Tree.create(
 
 trident_maple = Tree.create(
     name: "Trident Maple",
+    placement: "",
     fertilizing: "During the growing season fertilize the tree once a month with solid organic fertilizer or every week with a liquid product.",
     watering: "Trident maples grow vigorously and consume a lot of water during the growing season. Always water in time, but do not overwater. Don't use very calcareous water, rain water is preferable if it can be obtained.",
     pruning: "The new shoots in spring are usually allowed to grow until they have developed several leaf pairs and then they are shortened leaving just one pair. The apex tends to grow stronger than the lower branches, so balance the tree's growth by pruning the top more and letting weaker branches catch up. New shoots appear during the entire growing season and must be shortened continuously. On mature bonsai, pinching the young shoots very early can be necessary, to prevent the finer twigs of the outer canopy from thickening. Pruning of large branches or trunks should be done in summer when the cut wounds begin to heal immediately. Vigorous trident maples can close even larger wounds within a few years. Always seal wounds with cut paste to avoid fungi entering and to prevent die-back of the bark.
@@ -23,6 +24,7 @@ trident_maple = Tree.create(
 
 ficus = Tree.create(
     name: "Ficus",
+    placement: "",
     fertilizing: "Fertilize every two weeks during summer, and every four weeks during winter if the growth doesn't stop. Liquid fertilizer can be used as well as organic fertilizer pellets.",
     wiring: "Wiring and bending thin to medium Ficus branches is easy due to their flexibility, but you should check the wires regularly as they can cut into the bark very quickly. Strong branches should be shaped with guy-wires because they can be left on the tree for a much longer period.",
     watering: "The Ficus should be watered normally, which means it should be given water generously whenever the soil gets slightly dry. The Bonsai Ficus prefers room temperature soft water and it can tolerate occasional over, or underwatering. We advise daily misting to maintain humidity, but too much misting can create fungal problems. The warmer the placement of the fig during winter the more water it needs. If it’s kept in a cooler place it only needs to be kept slightly moist.",
@@ -32,129 +34,21 @@ ficus = Tree.create(
     disease: "Fig species are quite resistant against pests, but they are still susceptible to several issues depending on their location, and time of year, especially in the winter. Dry air and a lack of light weakens the Bonsai Ficus and often result in leaf drop. In poor conditions like these, they are sometimes infested with scale or spider mites. Placing customary insecticide sticks into the soil or spraying insecticide/miticide will get rid of the pests, but a weakened Ficus tree’s living conditions must be improved. Using plant lamps 12 to 14 hours a day, and frequently misting the leaves will help in the recovery process." 
     )
 
-    # = Tree.create(
-    # name: "",
-    # fertilizing: "",
-    # wiring: "",
-    # watering: "",
-    # pruning: "",
-    # repotting: "",
-    # propagation: "",
-    # disease: ""
-    # )
+box_wood = Tree.create(
+    name: "Boxus (Box, Box Wood)",
+    placement: "The common boxwood should be positioned outside in a sunny or semi-shaded place. In the winter a cold greenhouse is ideal for winter protection. The Chinese boxwood  can be kept indoors but it prefers to be placed outside during the summer. For the winter the Chinese boxwood should be taken into a cool room with temperatures around 50°F / 10° C and enough light.",
+    fertilizing: "Use solid organic fertilizer every month or a liquid fertilizer every week during the growing season. Don't fertilize the common boxwood during winter dormancy. The Chinese boxwood, which will not be completely dormant in its winter place, should be fertilized once a month in winter.",
+    wiring: "",
+    watering: "In summer the boxwood needs a lot of water, but it can withstand short dry periods. Avoid excess soil wetness. As the ideal pH value for the boxwood is 7 to 8, most normal tap water of good quality can be used.",
+    pruning: "Trim the new shoots leaving one or two pairs of leaves. If the canopy becomes very dense the leaves should be thinned out in order to let light get in, prevent the inner twigs from dying and encourage back-budding. Common boxwood tolerates hard pruning and extensive deadwood sculpturing very well. When the boxwood is wired you must take care not to damage the delicate beige bark. Wire marks will be visible for a long time.",
+    repotting: "Repot the boxwood every two to five years depending on its age and size. Boxwoods tolerate root pruning well. The soil mix should have a pH value of 7 to 8. You can add some pumice or lime rock gravel to your normal soil mix.",
+    propagation: "The boxwood can be propagated from cuttings and air-layering. Best results are achieved in spring.",
+    disease: "The boxwood can be attacked by fungal diseases (box blight or phytophthora root rot in wet soil, for example), nematodes, scale, boxwood mite, boxwood leafminer or boxwood psyllid. There are specific pesticides for most pests and diseases and it can be a good idea to ask a professional gardener for help in serious cases. Recently the boxwood moth has become a severe problem in Europe. Its long green caterpillars can skeletonize a boxwood plant very quickly. From bonsai trees the caterpillars can be collected by hand. Pesticides based on Neem oil or Bacillus thuringiensis are also effective against boxwood moth caterpillars."
+    )
 
     # = Tree.create(
     # name: "",
-    # fertilizing: "",
-    # wiring: "",
-    # watering: "",
-    # pruning: "",
-    # repotting: "",
-    # propagation: "",
-    # disease: ""
-    # )
-
-    # = Tree.create(
-    # name: "",
-    # fertilizing: "",
-    # wiring: "",
-    # watering: "",
-    # pruning: "",
-    # repotting: "",
-    # propagation: "",
-    # disease: ""
-    # )
-
-    # = Tree.create(
-    # name: "",
-    # fertilizing: "",
-    # wiring: "",
-    # watering: "",
-    # pruning: "",
-    # repotting: "",
-    # propagation: "",
-    # disease: ""
-    # )
-
-    # = Tree.create(
-    # name: "",
-    # fertilizing: "",
-    # wiring: "",
-    # watering: "",
-    # pruning: "",
-    # repotting: "",
-    # propagation: "",
-    # disease: ""
-    # )
-
-    # = Tree.create(
-    # name: "",
-    # fertilizing: "",
-    # wiring: "",
-    # watering: "",
-    # pruning: "",
-    # repotting: "",
-    # propagation: "",
-    # disease: ""
-    # )
-
-    # = Tree.create(
-    # name: "",
-    # fertilizing: "",
-    # wiring: "",
-    # watering: "",
-    # pruning: "",
-    # repotting: "",
-    # propagation: "",
-    # disease: ""
-    # )
-
-    # = Tree.create(
-    # name: "",
-    # fertilizing: "",
-    # wiring: "",
-    # watering: "",
-    # pruning: "",
-    # repotting: "",
-    # propagation: "",
-    # disease: ""
-    # )
-
-    # = Tree.create(
-    # name: "",
-    # fertilizing: "",
-    # wiring: "",
-    # watering: "",
-    # pruning: "",
-    # repotting: "",
-    # propagation: "",
-    # disease: ""
-    # )
-
-    # = Tree.create(
-    # name: "",
-    # fertilizing: "",
-    # wiring: "",
-    # watering: "",
-    # pruning: "",
-    # repotting: "",
-    # propagation: "",
-    # disease: ""
-    # )
-
-    # = Tree.create(
-    # name: "",
-    # fertilizing: "",
-    # wiring: "",
-    # watering: "",
-    # pruning: "",
-    # repotting: "",
-    # propagation: "",
-    # disease: ""
-    # )
-
-    # = Tree.create(
-    # name: "",
+    # placement: "",
     # fertilizing: "",
     # wiring: "",
     # watering: "",
