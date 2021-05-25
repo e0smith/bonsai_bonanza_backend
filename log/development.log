@@ -525,3 +525,3191 @@ Processing by TreesController#index as */*
 Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms | Allocations: 1379)
 
 
+Started GET "/trees" for ::1 at 2021-05-24 22:23:08 -0400
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.4ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 16ms (Views: 11.3ms | ActiveRecord: 0.8ms | Allocations: 11067)
+
+
+Started GET "/trees" for ::1 at 2021-05-24 22:33:02 -0400
+Processing by TreesController#index as */*
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+  [1m[36mTree Load (0.5ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.7ms | Allocations: 1971)
+
+
+Started GET "/" for ::1 at 2021-05-24 22:33:08 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/edward/.rvm/gems/ruby-2.6.1/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/edward/.rvm/gems/ruby-2.6.1/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 6.3ms | Allocations: 315)
+Completed 200 OK in 20ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 2448)
+
+
+Started GET "/trees" for ::1 at 2021-05-24 22:33:11 -0400
+Processing by TreesController#index as HTML
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 2.9ms | ActiveRecord: 0.3ms | Allocations: 1357)
+
+
+Started GET "/trees" for ::1 at 2021-05-24 22:38:58 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-24 22:39:00 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.2ms | Allocations: 1379)
+
+
+Started GET "/trees" for ::1 at 2021-05-24 22:40:50 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.2ms | Allocations: 1379)
+
+
+Started GET "/trees" for ::1 at 2021-05-24 22:40:51 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms | Allocations: 1375)
+
+
+Started GET "/trees" for ::1 at 2021-05-24 22:40:57 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.9ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 8ms (Views: 6.4ms | ActiveRecord: 0.9ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-24 22:41:52 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-24 22:45:39 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-24 22:45:40 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.2ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-24 22:45:55 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.2ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-24 22:45:55 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.2ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-24 22:46:05 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-24 22:46:05 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.2ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 10:19:21 -0400
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.5ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 27ms (Views: 21.9ms | ActiveRecord: 1.0ms | Allocations: 11078)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 10:19:28 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.2ms | Allocations: 1379)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 10:19:29 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.3ms | Allocations: 1379)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 10:19:35 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.3ms | Allocations: 1379)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 10:43:02 -0400
+Processing by TreesController#index as */*
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+  [1m[36mTree Load (0.4ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.7ms | Allocations: 7894)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 10:43:46 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 10:44:20 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.2ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 10:45:24 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.2ms | Allocations: 1361)
+
+
+Started GET "/" for ::1 at 2021-05-25 10:58:38 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/edward/.rvm/gems/ruby-2.6.1/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/edward/.rvm/gems/ruby-2.6.1/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 6.1ms | Allocations: 315)
+Completed 200 OK in 18ms (Views: 7.9ms | Allocations: 2441)
+
+
+Started GET "/rails/info/routes" for ::1 at 2021-05-25 10:58:42 -0400
+Processing by Rails::InfoController#routes as HTML
+  Rendering layout /Users/edward/.rvm/gems/ruby-2.6.1/gems/railties-6.1.3.2/lib/rails/templates/layouts/application.html.erb
+  Rendering /Users/edward/.rvm/gems/ruby-2.6.1/gems/railties-6.1.3.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /Users/edward/.rvm/gems/ruby-2.6.1/gems/actionpack-6.1.3.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [32 times] (Duration: 9.5ms | Allocations: 3680)
+  Rendered /Users/edward/.rvm/gems/ruby-2.6.1/gems/actionpack-6.1.3.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 1.8ms | Allocations: 917)
+  Rendered /Users/edward/.rvm/gems/ruby-2.6.1/gems/railties-6.1.3.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 15.9ms | Allocations: 7120)
+  Rendered layout /Users/edward/.rvm/gems/ruby-2.6.1/gems/railties-6.1.3.2/lib/rails/templates/layouts/application.html.erb (Duration: 16.4ms | Allocations: 7362)
+Completed 200 OK in 29ms (Views: 18.3ms | Allocations: 8519)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:07:05 -0400
+Processing by TreesController#index as */*
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+  [1m[36mTree Load (0.5ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.9ms | Allocations: 2122)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:07:56 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.2ms | Allocations: 1363)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:08:40 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:08:41 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.2ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:08:54 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:08:56 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:08:56 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:10:39 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:13:17 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:13:20 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:13:45 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 25ms (Views: 24.9ms | ActiveRecord: 0.1ms | Allocations: 1365)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:13:58 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" /* loading for inspect */ LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/trees" for ::1 at 2021-05-25 11:14:37 -0400
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 15ms (Views: 10.8ms | ActiveRecord: 0.6ms | Allocations: 11013)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:15:24 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.4ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.4ms | Allocations: 1379)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:16:02 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.2ms | Allocations: 1379)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:16:56 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.3ms | Allocations: 1379)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:18:22 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.2ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:18:23 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:18:45 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:18:46 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:18:47 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.3ms | Allocations: 1379)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:19:32 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:19:32 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:19:34 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:21:08 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" /* loading for inspect */ LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+Started GET "/trees" for ::1 at 2021-05-25 11:22:28 -0400
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 26ms (Views: 20.7ms | ActiveRecord: 0.9ms | Allocations: 11078)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:23:20 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.2ms | Allocations: 1379)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:23:23 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.2ms | Allocations: 1379)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:23:24 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.3ms | Allocations: 1379)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:23:27 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.3ms | Allocations: 1379)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:32:45 -0400
+Processing by TreesController#index as */*
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+  [1m[36mTree Load (0.4ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 4.1ms | ActiveRecord: 0.7ms | Allocations: 1952)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:32:45 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.2ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:33:10 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.2ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:33:50 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:34:13 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:34:23 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:34:33 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:34:42 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:35:03 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:35:07 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.2ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:35:40 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:36:19 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:36:41 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:36:41 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:36:48 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:38:01 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:38:02 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:40:44 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:40:51 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:41:06 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.7ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.7ms | Allocations: 1361)
+
+
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" /* loading for inspect */ LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ? OFFSET ?[0m  [["LIMIT", 1], ["OFFSET", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" /* loading for inspect */ LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/trees" for ::1 at 2021-05-25 11:42:54 -0400
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 28ms (Views: 17.5ms | ActiveRecord: 0.9ms | Allocations: 11052)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:42:57 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.3ms | Allocations: 1379)
+
+
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" /* loading for inspect */ LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/users" for ::1 at 2021-05-25 11:43:40 -0400
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 0.9ms | ActiveRecord: 0.1ms | Allocations: 3119)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:44:20 -0400
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 30ms (Views: 25.3ms | ActiveRecord: 0.7ms | Allocations: 11042)
+
+
+Started GET "/users" for ::1 at 2021-05-25 11:44:31 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.1ms | Allocations: 807)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:44:31 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms | Allocations: 1379)
+
+
+Started GET "/users" for ::1 at 2021-05-25 11:44:31 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.2ms | Allocations: 583)
+
+
+Started GET "/users" for ::1 at 2021-05-25 11:44:32 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.3ms | Allocations: 601)
+
+
+Started GET "/users" for ::1 at 2021-05-25 11:44:33 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.2ms | Allocations: 601)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:44:37 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.2ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:45:25 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.2ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:45:27 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.2ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:45:28 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:45:45 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:45:47 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.2ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:47:13 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.2ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:47:15 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:47:16 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:47:16 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.2ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:47:46 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.9ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.9ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:48:06 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.2ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:48:06 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:48:35 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:51:33 -0400
+Processing by TreesController#index as */*
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.6ms | Allocations: 8510)
+
+
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" /* loading for inspect */ LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (26.2ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+Started GET "/trees" for ::1 at 2021-05-25 11:53:54 -0400
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 11ms (Views: 7.1ms | ActiveRecord: 0.4ms | Allocations: 11022)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 11:53:58 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.6ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 6ms (Views: 4.4ms | ActiveRecord: 0.6ms | Allocations: 1379)
+
+
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" /* loading for inspect */ LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+Started GET "/trees" for ::1 at 2021-05-25 11:59:32 -0400
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 11ms (Views: 6.9ms | ActiveRecord: 0.5ms | Allocations: 11014)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:00:55 -0400
+Processing by TreesController#index as */*
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 1.3ms | Allocations: 8493)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:00:58 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.4ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.4ms | Allocations: 1379)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:01:52 -0400
+Processing by TreesController#index as */*
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.7ms | Allocations: 8493)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:01:55 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.3ms | Allocations: 1379)
+
+
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" /* loading for inspect */ LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Started GET "/trees" for ::1 at 2021-05-25 12:04:34 -0400
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 17ms (Views: 12.8ms | ActiveRecord: 0.5ms | Allocations: 11024)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:04:40 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.5ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.5ms | Allocations: 1379)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:05:52 -0400
+Processing by TreesController#index as */*
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 14ms (Views: 12.4ms | ActiveRecord: 1.4ms | Allocations: 8531)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:05:57 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.3ms | Allocations: 1379)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:07:28 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.2ms | Allocations: 1379)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:08:00 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/users" for ::1 at 2021-05-25 12:14:49 -0400
+Processing by UsersController#index as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 3.2ms | ActiveRecord: 0.5ms | Allocations: 1352)
+
+
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" /* loading for inspect */ LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (3.4ms)[0m  [1m[32mINSERT INTO "users" ("id", "name", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["id", 1], ["name", "test"], ["password_digest", "test"], ["created_at", "2021-05-25 16:15:42.906982"], ["updated_at", "2021-05-25 16:15:42.906982"]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/users" for ::1 at 2021-05-25 12:15:54 -0400
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 12ms (Views: 4.2ms | ActiveRecord: 3.9ms | Allocations: 6659)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:16:23 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.7ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 22ms (Views: 17.4ms | ActiveRecord: 2.0ms | Allocations: 7948)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:16:38 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.4ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.4ms | Allocations: 1379)
+
+
+Started GET "/users" for ::1 at 2021-05-25 12:16:45 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.4ms | Allocations: 702)
+
+
+Started GET "/users" for ::1 at 2021-05-25 12:16:46 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.4ms | Allocations: 702)
+
+
+Started GET "/users" for ::1 at 2021-05-25 12:16:47 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.3ms | Allocations: 702)
+
+
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" /* loading for inspect */ LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/trees" for ::1 at 2021-05-25 12:19:09 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.2ms | Allocations: 1379)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:20:35 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.3ms | Allocations: 1379)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:20:39 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.6ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.6ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:20:42 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/users" for ::1 at 2021-05-25 12:20:52 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.3ms | Allocations: 702)
+
+
+Started GET "/users" for ::1 at 2021-05-25 12:20:53 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.3ms | Allocations: 702)
+
+
+Started GET "/users" for ::1 at 2021-05-25 12:20:54 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.2ms | Allocations: 702)
+
+
+Started GET "/users" for ::1 at 2021-05-25 12:20:54 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.3ms | Allocations: 702)
+
+
+Started GET "/users" for ::1 at 2021-05-25 12:20:54 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.3ms | Allocations: 702)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:21:35 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:22:27 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.4ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.4ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:22:29 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:22:33 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.2ms | Allocations: 1361)
+
+
+Started GET "/users" for ::1 at 2021-05-25 12:22:37 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.2ms | Allocations: 702)
+
+
+Started GET "/users" for ::1 at 2021-05-25 12:22:38 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.2ms | Allocations: 702)
+
+
+Started GET "/users" for ::1 at 2021-05-25 12:22:39 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.3ms | Allocations: 702)
+
+
+Started GET "/users" for ::1 at 2021-05-25 12:22:39 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.2ms | Allocations: 702)
+
+
+Started GET "/users" for ::1 at 2021-05-25 12:22:39 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.3ms | Allocations: 702)
+
+
+Started GET "/users" for ::1 at 2021-05-25 12:22:40 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.3ms | Allocations: 702)
+
+
+Started GET "/users" for ::1 at 2021-05-25 12:22:40 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.4ms | Allocations: 702)
+
+
+Started GET "/users" for ::1 at 2021-05-25 12:22:40 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.3ms | Allocations: 702)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:26:11 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.2ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:27:37 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.2ms | Allocations: 1361)
+
+
+Started GET "/users" for ::1 at 2021-05-25 12:28:18 -0400
+Processing by UsersController#index as HTML
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.8ms | Allocations: 4362)
+
+
+Started GET "/users" for ::1 at 2021-05-25 12:28:19 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.4ms | Allocations: 702)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:28:23 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.4ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 21ms (Views: 17.7ms | ActiveRecord: 1.2ms | Allocations: 7581)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:28:28 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:28:35 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/users" for ::1 at 2021-05-25 12:28:52 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.2ms | Allocations: 702)
+
+
+Started GET "/users" for ::1 at 2021-05-25 12:28:53 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.4ms | Allocations: 702)
+
+
+Started GET "/users" for ::1 at 2021-05-25 12:28:53 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.3ms | Allocations: 702)
+
+
+Started GET "/users" for ::1 at 2021-05-25 12:29:07 -0400
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 14ms (Views: 9.7ms | ActiveRecord: 0.4ms | Allocations: 6620)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:29:15 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.5ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 21ms (Views: 17.5ms | ActiveRecord: 1.3ms | Allocations: 7986)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:29:20 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.2ms | Allocations: 1379)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:30:12 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.1ms | Allocations: 1379)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:30:52 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.3ms | Allocations: 1379)
+
+
+Started GET "/" for ::1 at 2021-05-25 12:30:56 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/edward/.rvm/gems/ruby-2.6.1/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/edward/.rvm/gems/ruby-2.6.1/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 6.1ms | Allocations: 315)
+Completed 200 OK in 18ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 2445)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:31:34 -0400
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 13ms (Views: 8.0ms | ActiveRecord: 0.5ms | Allocations: 11015)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:32:00 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.4ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.4ms | Allocations: 1379)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:32:15 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms | Allocations: 1379)
+
+
+Started GET "/users" for ::1 at 2021-05-25 12:32:20 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 12ms (Views: 8.5ms | ActiveRecord: 1.3ms | Allocations: 3518)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:32:30 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.4ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.4ms | Allocations: 1361)
+
+
+Started GET "/users" for ::1 at 2021-05-25 12:32:41 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.3ms | Allocations: 720)
+
+
+Started GET "/users" for ::1 at 2021-05-25 12:32:42 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.2ms | Allocations: 720)
+
+
+Started GET "/users" for ::1 at 2021-05-25 12:32:43 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.3ms | Allocations: 702)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:33:27 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:33:45 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.4ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.4ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:36:03 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.2ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:36:50 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:36:53 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:41:54 -0400
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 11ms (Views: 7.7ms | ActiveRecord: 0.6ms | Allocations: 11014)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:41:57 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.3ms | Allocations: 1379)
+
+
+Started GET "/users" for ::1 at 2021-05-25 12:43:21 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 13ms (Views: 9.3ms | ActiveRecord: 1.3ms | Allocations: 3515)
+
+
+Started GET "/users" for ::1 at 2021-05-25 12:43:22 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.3ms | Allocations: 697)
+
+
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" /* loading for inspect */ LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/trees" for ::1 at 2021-05-25 12:44:47 -0400
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 11ms (Views: 7.3ms | ActiveRecord: 0.4ms | Allocations: 11040)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:44:54 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.5ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.5ms | Allocations: 1379)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:50:50 -0400
+Processing by TreesController#index as */*
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 3.1ms | ActiveRecord: 0.5ms | Allocations: 1971)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:51:39 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.2ms | Allocations: 1379)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:52:23 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.1ms | Allocations: 1379)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:53:10 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:53:12 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:55:08 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:55:22 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/users" for ::1 at 2021-05-25 12:55:25 -0400
+  
+SyntaxError (/Users/edward/Development/code/phase4-project/bonsai_bonanza_backend/app/controllers/users_controller.rb:52: syntax error, unexpected end, expecting end-of-input):
+  
+app/controllers/users_controller.rb:52: syntax error, unexpected end, expecting end-of-input
+app/controllers/users_controller.rb:52: syntax error, unexpected end, expecting end-of-input
+Started GET "/users" for ::1 at 2021-05-25 12:55:26 -0400
+  
+SyntaxError (/Users/edward/Development/code/phase4-project/bonsai_bonanza_backend/app/controllers/users_controller.rb:52: syntax error, unexpected end, expecting end-of-input):
+  
+app/controllers/users_controller.rb:52: syntax error, unexpected end, expecting end-of-input
+app/controllers/users_controller.rb:52: syntax error, unexpected end, expecting end-of-input
+Started GET "/users" for ::1 at 2021-05-25 12:55:38 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.6ms | Allocations: 3702)
+
+
+Started GET "/users" for ::1 at 2021-05-25 12:55:39 -0400
+Processing by UsersController#index as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 1.0ms | Allocations: 4338)
+
+
+Started GET "/users" for ::1 at 2021-05-25 12:55:51 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.2ms | Allocations: 697)
+
+
+Started GET "/users" for ::1 at 2021-05-25 12:55:53 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.3ms | Allocations: 697)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:56:45 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.6ms | Allocations: 7624)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:56:47 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:56:57 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:57:36 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:58:08 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:58:23 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:58:42 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 12:59:11 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:00:20 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.2ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:00:34 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.2ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:00:36 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.2ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:01:05 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:01:07 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:01:52 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:01:52 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:03:06 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:03:13 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:04:59 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/users" for ::1 at 2021-05-25 13:05:08 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.2ms | Allocations: 697)
+
+
+Started GET "/users" for ::1 at 2021-05-25 13:05:09 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.2ms | Allocations: 697)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:06:28 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:06:36 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:08:43 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:08:53 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:11:06 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.2ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:13:15 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:13:27 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.2ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:16:00 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:16:03 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:16:18 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:16:28 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:17:42 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:17:43 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:18:52 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:20:33 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:21:18 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:21:21 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 19ms (Views: 18.5ms | ActiveRecord: 0.3ms | Allocations: 1362)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:22:48 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.2ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:22:53 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.2ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:23:08 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:23:08 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:23:19 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/users" for ::1 at 2021-05-25 13:24:11 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.3ms | Allocations: 697)
+
+
+Started GET "/users" for ::1 at 2021-05-25 13:24:12 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.3ms | Allocations: 697)
+
+
+Started GET "/users" for ::1 at 2021-05-25 13:24:13 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.3ms | Allocations: 697)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:24:59 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.2ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:32:02 -0400
+Processing by TreesController#index as */*
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.4ms | Allocations: 1952)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:32:12 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:32:14 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.2ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:32:21 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:32:21 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:32:29 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:32:34 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.2ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:32:48 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:32:56 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.2ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:34:08 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:35:04 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:36:27 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:36:46 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:37:21 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.2ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:38:55 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:38:55 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:43:01 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:43:01 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:43:04 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:43:46 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:43:47 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.2ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:43:50 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.3ms | Allocations: 1364)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:43:53 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:43:54 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:43:57 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:44:06 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.2ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:44:10 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:45:51 -0400
+Processing by TreesController#index as */*
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.9ms | Allocations: 8517)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:47:57 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:48:00 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.4ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.4ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:48:03 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:49:53 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.2ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:50:01 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:50:17 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:50:30 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.2ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:50:38 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:52:45 -0400
+Processing by TreesController#index as */*
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.8ms | Allocations: 8471)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:54:17 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:55:42 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:55:43 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:56:04 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:58:47 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 13:58:50 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.3ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 14:01:32 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 21ms (Views: 20.6ms | ActiveRecord: 0.3ms | Allocations: 1362)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 14:02:01 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.2ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 14:02:36 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 14:03:20 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.2ms | Allocations: 1361)
+
+
+Started GET "/" for ::1 at 2021-05-25 14:08:55 -0400
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/edward/.rvm/gems/ruby-2.6.1/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/edward/.rvm/gems/ruby-2.6.1/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 11.2ms | Allocations: 387)
+Completed 200 OK in 18ms (Views: 13.0ms | ActiveRecord: 0.0ms | Allocations: 2568)
+
+
+Started GET "/favicon.ico" for ::1 at 2021-05-25 14:08:55 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/trees" for ::1 at 2021-05-25 14:08:58 -0400
+Processing by TreesController#index as HTML
+  [1m[36mTree Load (0.8ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 32ms (Views: 24.1ms | ActiveRecord: 2.4ms | Allocations: 8857)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 14:09:13 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms | Allocations: 1380)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 14:09:40 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms | Allocations: 1379)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 14:10:21 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.1ms | Allocations: 1379)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 14:10:21 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms | Allocations: 1361)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 14:11:39 -0400
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 21ms (Views: 16.3ms | ActiveRecord: 0.6ms | Allocations: 11047)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 14:12:40 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.1ms | Allocations: 1379)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 14:12:49 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.5ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.5ms | Allocations: 1379)
+
+
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateTrees (20210524234526)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  [1m[35mDROP TABLE "trees"[0m
+  [1m[36mActiveRecord::SchemaMigration Destroy (0.1ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?[0m  [["version", "20210524234526"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20210524234447)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE "users"[0m
+  [1m[36mActiveRecord::SchemaMigration Destroy (0.1ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?[0m  [["version", "20210524234447"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20210524234447)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "password_digest" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20210524234447"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateTrees (20210524234526)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "trees" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "pruning" varchar, "wiring" varchar, "watering" varchar, "repotting" varchar, "propagation" varchar, "disease" varchar, "placement" varchar, "fertilizing" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20210524234526"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateComments (20210525184217)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "comments" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20210525184217"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/users" for ::1 at 2021-05-25 16:11:39 -0400
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/users"):
+  
+Started GET "/users" for ::1 at 2021-05-25 16:12:00 -0400
+Processing by UsersController#index as HTML
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 1.8ms | ActiveRecord: 0.3ms | Allocations: 1574)
+
+
+Started GET "/users" for ::1 at 2021-05-25 16:12:12 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.2ms | Allocations: 598)
+
+
+Started GET "/users" for ::1 at 2021-05-25 16:12:13 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.2ms | Allocations: 596)
+
+
+Started GET "/users" for ::1 at 2021-05-25 16:12:13 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.2ms | Allocations: 578)
+
+
+Started GET "/users" for ::1 at 2021-05-25 16:12:14 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.2ms | Allocations: 596)
+
+
+Started GET "/users" for ::1 at 2021-05-25 16:12:14 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.3ms | Allocations: 578)
+
+
+Started GET "/users" for ::1 at 2021-05-25 16:12:14 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.2ms | Allocations: 578)
+
+
+Started GET "/users" for ::1 at 2021-05-25 16:12:15 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.2ms | Allocations: 578)
+
+
+Started GET "/users" for ::1 at 2021-05-25 16:14:55 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.2ms | Allocations: 578)
+
+
+Started GET "/users" for ::1 at 2021-05-25 16:14:55 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.3ms | Allocations: 578)
+
+
+Started GET "/users" for ::1 at 2021-05-25 16:14:56 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.2ms | Allocations: 578)
+
+
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" /* loading for inspect */ LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/users" for ::1 at 2021-05-25 16:20:16 -0400
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 0.9ms | ActiveRecord: 0.1ms | Allocations: 3135)
+
+
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" /* loading for inspect */ LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/users" for ::1 at 2021-05-25 16:20:37 -0400
+  [1m[35m (3.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 1.0ms | ActiveRecord: 0.1ms | Allocations: 3103)
+
+
+Started GET "/users" for ::1 at 2021-05-25 16:20:38 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.3ms | Allocations: 596)
+
+
+Started GET "/users" for ::1 at 2021-05-25 16:21:25 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.2ms | Allocations: 596)
+
+
+Started GET "/users" for ::1 at 2021-05-25 16:21:26 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.2ms | Allocations: 578)
+
+
+Started GET "/users" for ::1 at 2021-05-25 16:21:26 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.2ms | Allocations: 578)
+
+
+Started GET "/users" for ::1 at 2021-05-25 16:21:27 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.2ms | Allocations: 596)
+
+
+Started GET "/users" for ::1 at 2021-05-25 16:21:27 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.2ms | Allocations: 596)
+
+
+Started GET "/users" for ::1 at 2021-05-25 16:21:27 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.2ms | Allocations: 578)
+
+
+Started GET "/users" for ::1 at 2021-05-25 16:22:16 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.2ms | Allocations: 578)
+
+
+Started GET "/users" for ::1 at 2021-05-25 16:22:17 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.3ms | Allocations: 578)
+
+
+Started GET "/users" for ::1 at 2021-05-25 16:22:17 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.2ms | Allocations: 578)
+
+
+Started GET "/users" for ::1 at 2021-05-25 16:23:29 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms | Allocations: 578)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 16:28:49 -0400
+Processing by TreesController#index as */*
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 0.4ms | Allocations: 1498)
+
+
+Started POST "/users" for ::1 at 2021-05-25 16:28:52 -0400
+Processing by UsersController#create as */*
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 620)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/users_controller.rb:18:in `create'
+Started GET "/trees" for ::1 at 2021-05-25 16:28:52 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.1ms | Allocations: 588)
+
+
+Started GET "/users" for ::1 at 2021-05-25 16:29:02 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.3ms | Allocations: 638)
+
+
+Started GET "/users" for ::1 at 2021-05-25 16:29:03 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.2ms | Allocations: 578)
+
+
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" /* loading for inspect */ LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/trees" for ::1 at 2021-05-25 16:29:22 -0400
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 6ms (Views: 1.1ms | ActiveRecord: 0.1ms | Allocations: 3186)
+
+
+Started GET "/users" for ::1 at 2021-05-25 16:34:02 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 2.4ms | ActiveRecord: 0.4ms | Allocations: 783)
+
+
+Started GET "/users" for ::1 at 2021-05-25 16:34:02 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.2ms | Allocations: 596)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 16:35:52 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.1ms | Allocations: 589)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 16:36:16 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.2ms | Allocations: 607)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 16:36:49 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.1ms | Allocations: 607)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 16:36:57 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.2ms | Allocations: 589)
+
+
+Started POST "/users" for ::1 at 2021-05-25 16:37:03 -0400
+Processing by UsersController#create as JSON
+  Parameters: {"user"=>{"name"=>"", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:18:in `create'
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 1.9ms | Allocations: 2773)
+
+
+  
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such column: users.username):
+  
+app/controllers/users_controller.rb:18:in `create'
+Started GET "/trees" for ::1 at 2021-05-25 16:37:03 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.1ms | Allocations: 588)
+
+
+Started GET "/users" for ::1 at 2021-05-25 16:37:08 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.2ms | Allocations: 578)
+
+
+Started GET "/users" for ::1 at 2021-05-25 16:37:08 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.2ms | Allocations: 578)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 16:40:10 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.2ms | Allocations: 589)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 16:40:28 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.2ms | Allocations: 589)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 16:41:04 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.2ms | Allocations: 589)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 16:43:44 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.1ms | Allocations: 589)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 16:44:00 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.1ms | Allocations: 589)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 16:44:04 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.5ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.5ms | Allocations: 589)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 16:44:05 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.3ms | Allocations: 589)
+
+
+Started POST "/users" for ::1 at 2021-05-25 16:44:09 -0400
+Processing by UsersController#create as JSON
+  Parameters: {"user"=>{"name"=>"", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:18:in `create'
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.7ms | Allocations: 632)
+
+
+  
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such column: users.username):
+  
+app/controllers/users_controller.rb:18:in `create'
+Started GET "/trees" for ::1 at 2021-05-25 16:44:09 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.1ms | Allocations: 597)
+
+
+Started POST "/users" for ::1 at 2021-05-25 16:44:18 -0400
+Processing by UsersController#create as JSON
+  Parameters: {"user"=>{"name"=>"", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:18:in `create'
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.6ms | Allocations: 632)
+
+
+  
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such column: users.username):
+  
+app/controllers/users_controller.rb:18:in `create'
+Started GET "/trees" for ::1 at 2021-05-25 16:44:18 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.1ms | Allocations: 588)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 16:45:37 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.1ms | Allocations: 589)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 16:45:42 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.2ms | Allocations: 589)
+
+
+Started GET "/users" for ::1 at 2021-05-25 16:45:45 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.2ms | Allocations: 578)
+
+
+Started GET "/users" for ::1 at 2021-05-25 16:45:46 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.2ms | Allocations: 578)
+
+
+Started GET "/users" for ::1 at 2021-05-25 16:45:46 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.2ms | Allocations: 578)
+
+
+Started GET "/users" for ::1 at 2021-05-25 16:45:46 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.3ms | Allocations: 578)
+
+
+Started GET "/users" for ::1 at 2021-05-25 16:45:46 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.2ms | Allocations: 578)
+
+
+Started GET "/users" for ::1 at 2021-05-25 16:45:46 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.2ms | Allocations: 578)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 16:46:37 -0400
+Processing by TreesController#index as */*
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.4ms | Allocations: 1482)
+
+
+Started GET "/users" for ::1 at 2021-05-25 16:46:42 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 2.0ms | ActiveRecord: 0.4ms | Allocations: 757)
+
+
+Started GET "/users" for ::1 at 2021-05-25 16:46:43 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.2ms | Allocations: 578)
+
+
+Started GET "/users" for ::1 at 2021-05-25 16:46:43 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.3ms | Allocations: 578)
+
+
+Started GET "/users" for ::1 at 2021-05-25 16:46:43 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.2ms | Allocations: 578)
+
+
+Started GET "/users" for ::1 at 2021-05-25 16:46:43 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.5ms | Allocations: 578)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 16:46:49 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.2ms | Allocations: 589)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 16:47:44 -0400
+Processing by TreesController#index as */*
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.3ms | Allocations: 1482)
+
+
+Started GET "/users" for ::1 at 2021-05-25 16:47:54 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 2.5ms | ActiveRecord: 0.5ms | Allocations: 756)
+
+
+Started GET "/users" for ::1 at 2021-05-25 16:48:18 -0400
+Processing by UsersController#index as HTML
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.3ms | Allocations: 1439)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 16:48:24 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.3ms | Allocations: 808)
+
+
+Started GET "/users" for ::1 at 2021-05-25 16:48:30 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.2ms | Allocations: 578)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 16:48:58 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.1ms | Allocations: 589)
+
+
+Started POST "/users" for ::1 at 2021-05-25 16:49:01 -0400
+Processing by UsersController#create as JSON
+  Parameters: {"user"=>{"name"=>"", "password"=>"[FILTERED]"}}
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 1.2ms | Allocations: 3677)
+
+
+  
+ActiveModel::UnknownAttributeError (unknown attribute 'password' for User.):
+  
+app/controllers/users_controller.rb:18:in `create'
+Started GET "/trees" for ::1 at 2021-05-25 16:49:01 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.1ms | Allocations: 588)
+
+
+Started GET "/users" for ::1 at 2021-05-25 16:49:05 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.3ms | Allocations: 578)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 16:49:08 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.2ms | Allocations: 589)
+
+
+Started POST "/users" for ::1 at 2021-05-25 16:49:13 -0400
+Processing by UsersController#create as JSON
+  Parameters: {"user"=>{"name"=>"", "password"=>"[FILTERED]"}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 182)
+
+
+  
+ActiveModel::UnknownAttributeError (unknown attribute 'password' for User.):
+  
+app/controllers/users_controller.rb:18:in `create'
+Started GET "/trees" for ::1 at 2021-05-25 16:49:13 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.1ms | Allocations: 588)
+
+
+Started GET "/users" for ::1 at 2021-05-25 16:49:18 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.2ms | Allocations: 578)
+
+
+Started POST "/users" for ::1 at 2021-05-25 17:17:10 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"name"=>"test", "password"=>"[FILTERED]"}}
+Completed 500 Internal Server Error in 1ms (Allocations: 182)
+
+
+  
+ActiveModel::UnknownAttributeError (unknown attribute 'password' for User.):
+  
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for ::1 at 2021-05-25 17:17:54 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"name"=>"test", "password"=>"[FILTERED]"}}
+Completed 500 Internal Server Error in 1ms (Allocations: 182)
+
+
+  
+ActiveModel::UnknownAttributeError (unknown attribute 'password' for User.):
+  
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for ::1 at 2021-05-25 17:18:02 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"name"=>"test", "password"=>"[FILTERED]"}}
+Completed 500 Internal Server Error in 1ms (Allocations: 182)
+
+
+  
+ActiveModel::UnknownAttributeError (unknown attribute 'password' for User.):
+  
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for ::1 at 2021-05-25 17:18:41 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"name"=>"test", "password"=>"[FILTERED]"}}
+[31mUnpermitted parameter: :password[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/users_controller.rb:18:in `create'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "test"], ["created_at", "2021-05-25 21:18:41.639511"], ["updated_at", "2021-05-25 21:18:41.639511"]]
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+Completed 201 Created in 9ms (Views: 0.8ms | ActiveRecord: 1.2ms | Allocations: 5167)
+
+
+Started GET "/users" for ::1 at 2021-05-25 17:20:12 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.4ms | Allocations: 725)
+
+
+Started POST "/users" for ::1 at 2021-05-25 17:20:20 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"name"=>"123", "password"=>"[FILTERED]"}}
+[31mUnpermitted parameter: :password[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "123"], ["created_at", "2021-05-25 21:20:20.334418"], ["updated_at", "2021-05-25 21:20:20.334418"]]
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+Completed 201 Created in 8ms (Views: 0.9ms | ActiveRecord: 2.1ms | Allocations: 1752)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 17:20:43 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.2ms | Allocations: 808)
+
+
+Started POST "/users" for ::1 at 2021-05-25 17:20:50 -0400
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"name"=>"321", "password"=>"[FILTERED]"}}
+[31mUnpermitted parameter: :password[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[36mUser Create (1.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "321"], ["created_at", "2021-05-25 21:20:50.755323"], ["updated_at", "2021-05-25 21:20:50.755323"]]
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+Completed 201 Created in 11ms (Views: 1.0ms | ActiveRecord: 2.8ms | Allocations: 1756)
+
+
+Started POST "/users" for ::1 at 2021-05-25 17:20:51 -0400
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"name"=>"321", "password"=>"[FILTERED]"}}
+[31mUnpermitted parameter: :password[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[36mUser Create (1.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "321"], ["created_at", "2021-05-25 21:20:51.663632"], ["updated_at", "2021-05-25 21:20:51.663632"]]
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+Completed 201 Created in 10ms (Views: 1.0ms | ActiveRecord: 2.4ms | Allocations: 1756)
+
+
+Started POST "/users" for ::1 at 2021-05-25 17:20:53 -0400
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"name"=>"321", "password"=>"[FILTERED]"}}
+[31mUnpermitted parameter: :password[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[36mUser Create (1.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "321"], ["created_at", "2021-05-25 21:20:53.596317"], ["updated_at", "2021-05-25 21:20:53.596317"]]
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+Completed 201 Created in 13ms (Views: 0.7ms | ActiveRecord: 2.7ms | Allocations: 1756)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 17:20:55 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.1ms | Allocations: 589)
+
+
+Started GET "/users" for ::1 at 2021-05-25 17:20:59 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.2ms | Allocations: 1139)
+
+
+Started POST "/users" for ::1 at 2021-05-25 17:21:06 -0400
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"name"=>"555", "password"=>"[FILTERED]"}}
+[31mUnpermitted parameter: :password[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "555"], ["created_at", "2021-05-25 21:21:06.029772"], ["updated_at", "2021-05-25 21:21:06.029772"]]
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+Completed 201 Created in 12ms (Views: 1.1ms | ActiveRecord: 2.5ms | Allocations: 1753)
+
+
+Started GET "/users" for ::1 at 2021-05-25 17:21:13 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.3ms | Allocations: 1251)
+
+
+Started POST "/users" for ::1 at 2021-05-25 17:21:16 -0400
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"name"=>"555", "password"=>"[FILTERED]"}}
+[31mUnpermitted parameter: :password[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[36mUser Create (1.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "555"], ["created_at", "2021-05-25 21:21:16.973890"], ["updated_at", "2021-05-25 21:21:16.973890"]]
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+Completed 201 Created in 11ms (Views: 1.0ms | ActiveRecord: 2.6ms | Allocations: 1753)
+
+
+Started POST "/users" for ::1 at 2021-05-25 17:21:18 -0400
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"name"=>"555", "password"=>"[FILTERED]"}}
+[31mUnpermitted parameter: :password[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[36mUser Create (1.0ms)[0m  [1m[32mINSERT INTO "users" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "555"], ["created_at", "2021-05-25 21:21:18.517233"], ["updated_at", "2021-05-25 21:21:18.517233"]]
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+Completed 201 Created in 10ms (Views: 1.0ms | ActiveRecord: 2.7ms | Allocations: 1753)
+
+
+Started POST "/users" for ::1 at 2021-05-25 17:21:18 -0400
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"name"=>"555", "password"=>"[FILTERED]"}}
+[31mUnpermitted parameter: :password[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "555"], ["created_at", "2021-05-25 21:21:18.931792"], ["updated_at", "2021-05-25 21:21:18.931792"]]
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+Completed 201 Created in 9ms (Views: 1.0ms | ActiveRecord: 2.4ms | Allocations: 1753)
+
+
+Started POST "/users" for ::1 at 2021-05-25 17:21:19 -0400
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"name"=>"555", "password"=>"[FILTERED]"}}
+[31mUnpermitted parameter: :password[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[36mUser Create (1.0ms)[0m  [1m[32mINSERT INTO "users" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "555"], ["created_at", "2021-05-25 21:21:19.147297"], ["updated_at", "2021-05-25 21:21:19.147297"]]
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+Completed 201 Created in 10ms (Views: 1.0ms | ActiveRecord: 2.7ms | Allocations: 1753)
+
+
+Started POST "/users" for ::1 at 2021-05-25 17:21:19 -0400
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"name"=>"555", "password"=>"[FILTERED]"}}
+[31mUnpermitted parameter: :password[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[36mUser Create (1.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "555"], ["created_at", "2021-05-25 21:21:19.347761"], ["updated_at", "2021-05-25 21:21:19.347761"]]
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+Completed 201 Created in 11ms (Views: 1.1ms | ActiveRecord: 2.8ms | Allocations: 1753)
+
+
+Started GET "/users" for ::1 at 2021-05-25 17:21:21 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.3ms | Allocations: 1811)
+
+
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" /* loading for inspect */ LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Destroy (0.7ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Destroy (0.4ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 2]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Destroy (0.4ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 3]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Destroy (0.4ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 4]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 5]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 6]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 7]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 8]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 9]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 10]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 11]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/users" for ::1 at 2021-05-25 17:21:52 -0400
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 1.0ms | ActiveRecord: 0.1ms | Allocations: 3146)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 17:28:16 -0400
+Processing by TreesController#index as */*
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 0.4ms | Allocations: 1397)
+
+
+Started GET "/users" for ::1 at 2021-05-25 17:30:12 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.6ms | Allocations: 611)
+
+
+Started POST "/users" for ::1 at 2021-05-25 17:30:17 -0400
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"name"=>"test", "password"=>"[FILTERED]"}}
+[31mUnpermitted parameter: :password[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "test"], ["created_at", "2021-05-25 21:30:17.862225"], ["updated_at", "2021-05-25 21:30:17.862225"]]
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+Completed 201 Created in 22ms (Views: 1.0ms | ActiveRecord: 2.8ms | Allocations: 5425)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 17:30:49 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.2ms | Allocations: 589)
+
+
+Started POST "/users" for ::1 at 2021-05-25 17:30:56 -0400
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"name"=>"123", "password"=>"[FILTERED]"}}
+[31mUnpermitted parameter: :password[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[36mUser Create (1.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "123"], ["created_at", "2021-05-25 21:30:56.007229"], ["updated_at", "2021-05-25 21:30:56.007229"]]
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+Completed 201 Created in 11ms (Views: 1.1ms | ActiveRecord: 2.6ms | Allocations: 1771)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 17:31:19 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.2ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.2ms | Allocations: 607)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 17:31:36 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.1ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.1ms | Allocations: 589)
+
+
+Started GET "/trees" for ::1 at 2021-05-25 17:31:43 -0400
+Processing by TreesController#index as */*
+  [1m[36mTree Load (0.3ms)[0m  [1m[34mSELECT "trees".* FROM "trees"[0m
+  ↳ app/controllers/trees_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.3ms | Allocations: 589)
+
+
+Started POST "/users" for ::1 at 2021-05-25 17:31:47 -0400
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"name"=>"", "password"=>"[FILTERED]"}}
+[31mUnpermitted parameter: :password[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", ""], ["created_at", "2021-05-25 21:31:47.181787"], ["updated_at", "2021-05-25 21:31:47.181787"]]
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+Completed 201 Created in 10ms (Views: 1.2ms | ActiveRecord: 2.5ms | Allocations: 1756)
+
+
+Started GET "/users" for ::1 at 2021-05-25 17:31:51 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.3ms | Allocations: 927)
+
+
+Started POST "/users" for ::1 at 2021-05-25 17:31:55 -0400
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"name"=>"", "password"=>"[FILTERED]"}}
+[31mUnpermitted parameter: :password[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", ""], ["created_at", "2021-05-25 21:31:55.704497"], ["updated_at", "2021-05-25 21:31:55.704497"]]
+  ↳ app/controllers/users_controller.rb:20:in `create'
+  [1m[36mTRANSACTION (2.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:20:in `create'
+Completed 201 Created in 12ms (Views: 1.0ms | ActiveRecord: 3.4ms | Allocations: 1753)
+
+
+Started GET "/users" for ::1 at 2021-05-25 17:31:59 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.4ms | Allocations: 1027)
+
+
+Started GET "/users" for ::1 at 2021-05-25 17:36:26 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.3ms | Allocations: 1027)
+
+
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateComments (20210525184217)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE "comments"[0m
+  [1m[36mActiveRecord::SchemaMigration Destroy (0.1ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?[0m  [["version", "20210525184217"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateComments (20210525184217)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "comments" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "comment" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20210525184217"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
