@@ -1,5 +1,6 @@
 juniper = Tree.create(
     name: "Juniper",
+    image: "http://2.bp.blogspot.com/-YRkB_y5G0kk/TbZoJXBXW0I/AAAAAAAAAQE/1aT23aEnIB8/s1600/2011-04-23_Brin011.jpg",
     placement: " Place the tree outside, year-round, in a bright location with lots of sunlight. The Juniper cannot live indoors. During the winter protect the tree once temperatures drop below 15 °F (-10 °C). Some species change their foliage color during frosty periods to a purplish brown which is a part of their internal frost protection mechanism. Don’t worry they will turn green again in spring.",
     fertilizing: "Use normal organic fertilizer pellets every month during the growing season or a liquid fertilizer every week. If you’d like to see strong growth you can apply some higher nitrogen levels in the spring.",
     wiring: "",
@@ -12,6 +13,7 @@ juniper = Tree.create(
 
 trident_maple = Tree.create(
     name: "Trident Maple",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyiUgtVHC6je7dbHogmwQsx5d4dSI6Ju1HMA&usqp=CAU",
     placement: "",
     fertilizing: "During the growing season fertilize the tree once a month with solid organic fertilizer or every week with a liquid product.",
     watering: "Trident maples grow vigorously and consume a lot of water during the growing season. Always water in time, but do not overwater. Don't use very calcareous water, rain water is preferable if it can be obtained.",
@@ -24,6 +26,7 @@ trident_maple = Tree.create(
 
 ficus = Tree.create(
     name: "Ficus",
+    image: "https://i.pinimg.com/originals/0a/04/a4/0a04a47500acf3238806ec3ee47f4274.jpg",
     placement: "",
     fertilizing: "Fertilize every two weeks during summer, and every four weeks during winter if the growth doesn't stop. Liquid fertilizer can be used as well as organic fertilizer pellets.",
     wiring: "Wiring and bending thin to medium Ficus branches is easy due to their flexibility, but you should check the wires regularly as they can cut into the bark very quickly. Strong branches should be shaped with guy-wires because they can be left on the tree for a much longer period.",
@@ -36,6 +39,7 @@ ficus = Tree.create(
 
 box_wood = Tree.create(
     name: "Boxus (Box, Box Wood)",
+    image: "https://live.staticflickr.com/2547/3914020324_65d5b2251a_b.jpg",
     placement: "The common boxwood should be positioned outside in a sunny or semi-shaded place. In the winter a cold greenhouse is ideal for winter protection. The Chinese boxwood  can be kept indoors but it prefers to be placed outside during the summer. For the winter the Chinese boxwood should be taken into a cool room with temperatures around 50°F / 10° C and enough light.",
     fertilizing: "Use solid organic fertilizer every month or a liquid fertilizer every week during the growing season. Don't fertilize the common boxwood during winter dormancy. The Chinese boxwood, which will not be completely dormant in its winter place, should be fertilized once a month in winter.",
     wiring: "",

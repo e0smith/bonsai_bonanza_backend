@@ -2,11 +2,11 @@ class CommentsController < ApplicationController
   before_action :set_comment, only: [:show, :update, :destroy]
 
   # GET /comments
-  # def index
-  #   @comments = Comment.all
-
-  #   render json: @comments
-  # end
+  def index
+    @tree = Tree.find_by(id: params[:tree_id])
+    @comments = @tree.comments
+    render json: @comments
+  end
 
   # GET /comments/1
   def show

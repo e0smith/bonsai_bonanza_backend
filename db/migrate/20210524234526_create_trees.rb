@@ -10,7 +10,7 @@ class CreateTrees < ActiveRecord::Migration[6.1]
       t.string :disease
       t.string :placement
       t.string :fertilizing
-
+      t.string :image
       t.timestamps
     end
   end

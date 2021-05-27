@@ -14,6 +14,7 @@ ActiveRecord::Schema.define(version: 2021_05_25_184217) do
 
   create_table "comments", force: :cascade do |t|
     t.string "comment"
+    t.integer "tree_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -28,6 +29,7 @@ ActiveRecord::Schema.define(version: 2021_05_25_184217) do
     t.string "disease"
     t.string "placement"
     t.string "fertilizing"
+    t.string "image"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
