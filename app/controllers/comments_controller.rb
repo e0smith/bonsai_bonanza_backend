@@ -5,20 +5,19 @@ class CommentsController < ApplicationController
   def index
     @tree = Tree.find_by(id: params[:tree_id])
     @comments = @tree.comments
-    render json: @comments
+    render json: @comments, except: [:created_at, :updated_at]
   end
 
   # GET /comments/1
   def show
-    render json: @comment
+    render json: @comment, except: [:created_at, :updated_at]
   end
 
   # POST /comments
   def create
     @comment = Comment.new(comment_params)
-
     if @comment.save
-      render json: @comment, status: :created, location: @comment
+      render json: @comment, status: :created
     else
       render json: @comment.errors, status: :unprocessable_entity
     end
@@ -46,6 +45,6 @@ class CommentsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def comment_params
-      params.fetch(:comment, {})
+      params.require(:comment).permit(:comment, :tree_id)
     end
 end
