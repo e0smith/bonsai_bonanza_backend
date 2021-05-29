@@ -4,13 +4,29 @@ class TreesController < ApplicationController
   # GET /trees
   def index
     @trees = Tree.all
-    render json: @trees, except: [:created_at, :updated_at]
+    render json: @trees, include: [:comments], except: [:created_at, :updated_at]
   end
 
   # GET /trees/1
   def show
-    render json: @tree, except: [:created_at, :updated_at]
+    render json: @tree, include: [:comments], except: [:created_at, :updated_at]
   end
+
+  private
+    # Use callbacks to share common setup or constraints between actions.
+    def set_tree
+      @tree = Tree.find(params[:id])
+    end
+
+    # Only allow a list of trusted parameters through.
+    def tree_params
+      params.require(:tree).permit(:name, :pruning, :wiring, :repotting, :propagation, :disease, :placement, :fertilizing)
+    end
+end
+
+
+
+
 
   # # POST /trees
   # def create
@@ -36,15 +52,3 @@ class TreesController < ApplicationController
   # def destroy
   #   @tree.destroy
   # end
-
-  private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_tree
-      @tree = Tree.find(params[:id])
-    end
-
-    # Only allow a list of trusted parameters through.
-    def tree_params
-      params.require(:tree).permit(:name, :pruning, :wiring, :repotting, :propagation, :disease, :placement, :fertilizing)
-    end
-end
