@@ -116,7 +116,7 @@ sakura = Tree.create(
     disease: "Normally the wisteria is a very strong and healthy plant. Powdery mildew and leaf spot diseases can sometimes occur. Pluck out troubled leaves in an early stage. Crown galls and cankers should be cut out. Root rot can occur when the rootball is too wet during dormancy or in bad soil. The most dangerous insect is the Wisteria borer which tunnels the transport tissues and can kill the tree. Unfortunately the borer is hard to control, even with strong chemical pesticides."
     )    
     
-    = Tree.create(
+    dwarf_jade = Tree.create(
     name: "Dwarf Jade (Portulacaria afra)",
     image: "https://adamaskwhy.files.wordpress.com/2014/08/img_6276.jpg",
     placement: "The Jade is considered an indoor tree in most temperate zones, although it can be grown outdoors in full sun and high temperatures. Do not let temperatures drop below 40 °F (5 °C). It requires substantial light, full sun if possible, especially when kept indoors. You'll know if your Jade tree is getting enough sunlight when it's leaves develop red tips or edges.",
@@ -127,6 +127,45 @@ sakura = Tree.create(
     repotting: "Repotting a Jade tree should be done every-other-year in spring. Be sure to use a well-draining soil mixture and don't water the soil for about a week after repotting. This allows the cut or damaged roots to dry and callous. Watering after repotting leads to root rot, which can severely damage your jade tree.",
     propagation: "Jade trees are particularly easy to propagate using cuttings. This should be done during the summer months.",
     disease: "The Jade is strong when it's watered correctly and is receiving sufficient sunlight. If taken care of, you should not experience any issues with its health."
+    )
+        
+    bougainvillea = Tree.create(
+    name: "Bougainvillea",
+    image: "https://www.bonsaiempire.com/images/stories/species/bougainvillea-bonsai.jpg",
+    placement: "The bougainvillea needs full sun and high temperatures for producing flowers and for that reason it should be placed outside in a sunny place during the growing season. In autumn the tree should be taken into a cool room with sufficient light (or under grow lights) and at temperatures not below 50°F / 10° C and best not over 59° F / 15° C, which is unfortunately not easy to achieve in many houses.",
+    fertilizing: "Apply solid organic fertilizer once a month or use a liquid fertilizer every week during the growing season and every two weeks in winter.",
+    wiring: "Wiring is possible on young shoots and twigs but older branches are very stiff and break easily. Beware of the thorns when you are wiring bougainvilleas.",
+    watering: "Water the bougainvillea thoroughly when the soil gets dry, but avoid constant soil wetness which will lead to root rot, fungal problems, insect susceptibility and death. The species prefers a pH value of 6 to 6.5, so avoid using highly calcareous water.",
+    pruning: "Cut the shoots after flowering, leaving two leaves on each and prune twigs and branches in autumn or winter. The bougainvillea can bud from old wood after hard pruning. If you want the tree to flower, don't pinch and trim it too much in summer. Use cut paste on larger cut wounds. Those heal over slowly. ",
+    repotting: "Repot smaller bougainvilleas every two or three years. Larger specimens can be repotted every three to five years. A well-draining standard soil mix is fine for this species. The roots of the bougainvillea are yellow, thin and delicate. Take good care not to tear off the roots when you remove the rootball from the pot! Untangle the roots tenderly and don't use the root rake with force. Root pruning is tolerated well.",
+    propagation: "The bougainvillea can be propagated from cuttings. Best results are achieved in spring and summer with semi-hardwood cuttings or root cuttings. Air-layering is also possible. For more detailed information on these techniques, try our Bonsai tree care section.",
+    disease: "The bougainvillea tends to be pest resistant as long as is kept healthy and free from wet soil conditions or lack of light. Weak plants can be attacked by powdery mildew, aphids, scale, mealy bug, white fly or caterpillars. In that case use specific pesticides and try to improve the conditions for your tree. When the flowers wilt, cut them off to prevent rot."
+    )
+        
+    ginko = Tree.create(
+    name: "Ginkgo (Ginkgo biloba)",
+    image: "https://www.bonsaiempire.com/images/species-photos/bonsai-ginkgo.jpeg",
+    placement: "Place the ginkgo outside all year round. It prefers a sunny position but young trees are better placed in semi-shade. The ginkgo can endure frost but when it is planted in a bonsai pot the rootball should be protected from very low temperatures. In spring the new leaves appear quite late and in most cases then there will be no night frost anymore. But if the weather broadcast should announce the possibility of night frosts, better protect ginkgo bonsai when they have already produced leaves, to avoid severe damages.",
+    fertilizing: "Begin with fertilizing when the buds begin to open. Use high nitrogen fertilizer in spring to make the tree grow long shoots. Otherwise especially older ginkgo bonsai might only produce leaves on short shoots and the ramification will not improve. Use liquid fertilizer every week until the leaves turn yellow in autumn. Solid organic fertilizer can also be used. If the plant's vigour must be increased, use both, solid organic fertilizer and liquid fertilizer.",
+    wiring: "Ginkgo trees can be wired at any time of the year. The branches are quite flexible. Take care not to damage the soft bark of the branches and twigs with the wire.",
+    watering: "Ginkgos need much water from spring to autumn but must not be overwatered. Keep them slightly moist in winter. Calcareous water is no problem for the ginkgo.",
+    pruning: "New long shoots should be shortened to one or two leaves when five or six have grown. Larger cut wounds don't heal well. Use cut paste and, if possible, avoid producing large wounds.",
+    repotting: "Younger trees can be repotted every year in spring, older ones every two to five years. Don't prune the roots too heavily. A standard soil mix is fine, but it must be well-draining. The ginkgo tolerates a wide range of acidic to alkaline soils, the pH value can even be up to 10.",
+    propagation: "The ginkgo tree can be propagated from seeds and cuttings. Air-layering is also possible. The seeds have a hard shell and should be stratified or scarified before they are planted. It can take two years until they germinate.",
+    disease: "The ginkgo is very resistant and is hardly ever attacked by insects or fungal diseases."
+    )
+        
+    umbrella = Tree.create(
+    name: "Hawaiian umbrella (Schefflera arboricola)",
+    image: "https://www.bonsaiempire.com/images/species/hawaiian-umbrella-Schefflera.jpg",
+    placement: "The Dwarf Umbrella Bonsai can be kept inside the house all the year round. Ideal temperatures are 18° C to 22° C / 65° F to 72° F. Schefflera Bonsai can tolerate low humidity and dim light but they grow much better and produce smaller leaves if they get much light. The temperature should not fall below 10° C / 50° F. If the windows are opened for ventilation in winter, take care that the tree is not exposed to cold draught.",
+    fertilizing: "Use liquid fertilizer every week from spring to autumn and once a month in winter, regarding the dosing instruction. During summer you can also use solid organic fertilizer.",
+    wiring: "The Dwarf Umbrella Tree produces no hard wood and their trunks and branches are likely to snap when you try to bend them too strongly. Younger shoots are more flexible and can be wired and shaped with less risk of breaking them.",
+    watering: "The Hawaiian umbrella Bonsai likes a moist soil which must not dry out. In winter it should be watered more cautiously, but if the tree is placed above a heating device, take good care that the rootball does not dry out.",
+    pruning: "Dwarf Umbrella Bonsai trees can be developed well with thoughtful pruning. A new shoot will point in the same direction like the leaf that is located directly below the cut, growing from its axil.  Very healthy trees can be defoliated and at the same time the tips of the twigs shout be cut off. This results in lots of new shoots, increasing ramification and smaller leaves.",
+    repotting: "Repot every second year in spring. Be careful with the fleshy roots which break easily. Use a standard soil mix.",
+    propagation: "The Dwarf Umbrella Tree can be propagated from seeds and cuttings. Cuttings will root in soil or even in a glass of water.",
+    disease: "The tree is not often attacked by insects. Scale can occasionally occur. In that case use a specific oil-based insecticide."
     )
         
     # = Tree.create(
@@ -141,7 +180,7 @@ sakura = Tree.create(
     # propagation: "",
     # disease: ""
     # )
-        
+            
     # = Tree.create(
     # name: "",
     # image: "",
@@ -154,7 +193,7 @@ sakura = Tree.create(
     # propagation: "",
     # disease: ""
     # )
-        
+            
     # = Tree.create(
     # name: "",
     # image: "",
@@ -167,7 +206,46 @@ sakura = Tree.create(
     # propagation: "",
     # disease: ""
     # )
-        
+            
+    # = Tree.create(
+    # name: "",
+    # image: "",
+    # placement: "",
+    # fertilizing: "",
+    # wiring: "",
+    # watering: "",
+    # pruning: "",
+    # repotting: "",
+    # propagation: "",
+    # disease: ""
+    # )
+            
+    # = Tree.create(
+    # name: "",
+    # image: "",
+    # placement: "",
+    # fertilizing: "",
+    # wiring: "",
+    # watering: "",
+    # pruning: "",
+    # repotting: "",
+    # propagation: "",
+    # disease: ""
+    # )
+            
+    # = Tree.create(
+    # name: "",
+    # image: "",
+    # placement: "",
+    # fertilizing: "",
+    # wiring: "",
+    # watering: "",
+    # pruning: "",
+    # repotting: "",
+    # propagation: "",
+    # disease: ""
+    # )
+            
     # = Tree.create(
     # name: "",
     # image: "",
