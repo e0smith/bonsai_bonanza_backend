@@ -103,31 +103,31 @@ sakura = Tree.create(
     disease: "Scale and spider mites sometimes bother the hinoki cypress Bonsai, then use a specific pesticide. If tip blight occurs, a special fungicide is needed."
     )
 
-        # = Tree.create(
-    # name: "",
-    # image: "",
-    # placement: "",
-    # fertilizing: "",
-    # wiring: "",
-    # watering: "",
-    # pruning: "",
-    # repotting: "",
-    # propagation: "",
-    # disease: ""
-    # )    
+    wisteria = Tree.create(
+    name: "Wisteria",
+    image: "https://www.bonsaiempire.com/images/stories/species/wisteria-bonsai.jpg",
+    placement: "The wisteria should be placed in full sun during the growing season. Sunlight is essential for flowering. Wisterias are frost hardy when they are growing in the ground, but the roots need protection when they are planted in containers. A cold but frost-free greenhouse, garage or shed is a good winter place for a wisteria bonsai tree.",
+    fertilizing: "Apply solid organic fertilizer once a month or use a liquid fertilizer every week during the growing season or even both. The wisteria grows strongly and likes to be fed well, but use fertilizers which are not too high in nitrogen. The wisteria can fix nitrogen from the atmosphere and too much nitrogen would promote leaf growth instead of flowers.",
+    wiring: "After the leaves have fallen you can prune the branches and twigs and wire the branch structure.",
+    watering: "The wisteria needs enormous amounts of water during the growing season. In summer it is a good idea to place the bonsai pot in a shallow bowl which is filled up with water each time the tree is watered. In autumn and winter keep the roots moist but not soaking.",
+    pruning: "Hard pruning is best done in early spring or after flowering. Let the tendrils grow until July and then cut them back. Don't cut off the short shoots on which the flower buds sit. At a close look you can distinguish the flower buds from the leaf buds. When the canopy gets too dense in summer and the inner twigs suffer from lack of light you can thin out the leaves but it is not advisable to totally defoliate the wisteria. Don't let too many seed pods develop because they take a lot of energy from the tree.",
+    repotting: "Repot younger wisterias every two years and older ones every three to five years in spring before the buds open. They tolerate root pruning well but on old trees you should not risk too much. Wisterias flower better when they get a bit root-bound. A standard soil mix works well. The pH value should be around 5.5 to 6.",
+    propagation: "Wisterias are easily propagated from seed. Cuttings, air-layers and grafts are also possible. Seedlings will not flower before they are 10 – 15 years old. Cuttings, air-layers or grafted plants will flower earlier.",
+    disease: "Normally the wisteria is a very strong and healthy plant. Powdery mildew and leaf spot diseases can sometimes occur. Pluck out troubled leaves in an early stage. Crown galls and cankers should be cut out. Root rot can occur when the rootball is too wet during dormancy or in bad soil. The most dangerous insect is the Wisteria borer which tunnels the transport tissues and can kill the tree. Unfortunately the borer is hard to control, even with strong chemical pesticides."
+    )    
     
-    # = Tree.create(
-    # name: "",
-    # image: "",
-    # placement: "",
-    # fertilizing: "",
-    # wiring: "",
-    # watering: "",
-    # pruning: "",
-    # repotting: "",
-    # propagation: "",
-    # disease: ""
-    # )
+    = Tree.create(
+    name: "Dwarf Jade (Portulacaria afra)",
+    image: "https://adamaskwhy.files.wordpress.com/2014/08/img_6276.jpg",
+    placement: "The Jade is considered an indoor tree in most temperate zones, although it can be grown outdoors in full sun and high temperatures. Do not let temperatures drop below 40 °F (5 °C). It requires substantial light, full sun if possible, especially when kept indoors. You'll know if your Jade tree is getting enough sunlight when it's leaves develop red tips or edges.",
+    fertilizing: "Fertilize your Jade tree once a month, spring through autumn, during the growth season. Any normal fertilizer, as described in our fertilize section, should be fine.",
+    wiring: "The bark of the Jade is very soft, so be cautious when wiring. If you do wire your Jade tree, make sure to monitor it closely as the wire will cut into the bark quickly.",
+    watering: "Jade trees can hold large amounts of water inside their leaves, so water sparsely and allow the plant to dry out a little between watering. If the tree is kept relatively cold during winter months, watering can be done as seldom as once every three weeks. Monitor your tree closely and water the moment the soil dries out slightly. The Jade Bonsai is not as particular about over-watering as most other succulents.",
+    pruning: "Because the Jade tree is a succulent, it retains water in its trunk and branches. The water retention makes the tree limbs heavy which naturally bends the trunk and branches. It responds very well to pruning, and you should prune it regularly to force it to grow branches, especially in the lower part of the trunk. Do not use cut-paste on Jade trees. The nature of its trunk and branches make it very susceptible to rotting.",
+    repotting: "Repotting a Jade tree should be done every-other-year in spring. Be sure to use a well-draining soil mixture and don't water the soil for about a week after repotting. This allows the cut or damaged roots to dry and callous. Watering after repotting leads to root rot, which can severely damage your jade tree.",
+    propagation: "Jade trees are particularly easy to propagate using cuttings. This should be done during the summer months.",
+    disease: "The Jade is strong when it's watered correctly and is receiving sufficient sunlight. If taken care of, you should not experience any issues with its health."
+    )
         
     # = Tree.create(
     # name: "",
